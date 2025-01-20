@@ -22,20 +22,20 @@ This repository contains the code for a **Diabetes Prediction Web App** built us
 ## Setup and Installation
 
 1. Clone the repository:
-   -git clone https://github.com/Nishantr846/diabetes-prediction-web-app.git
+   - git clone https://github.com/Nishantr846/diabetes-prediction-web-app.git
    
 3. Navigate to the project folder:
-   -cd diabetes-prediction-web-app
+   - cd diabetes-prediction-web-app
    
 4. Install the required dependencies:
-   -pip install pickle-mixin
-   -pip install scikit-learn
-   -pip install numpy
-   -pip install pandas
-   -pip install streamlit
+   - pip install pickle-mixin
+   - pip install scikit-learn
+   - pip install numpy
+   - pip install pandas
+   - pip install streamlit
    
 6. Run the Streamlit app:
-   -streamlit run Diabetes_Prediction_WebApp.py
+   - streamlit run Diabetes_Prediction_WebApp.py
 
 7. Open the app in your browser (Streamlit will provide a local URL).
 
@@ -72,9 +72,9 @@ The trained model is saved using Pickle to allow easy reuse without retraining t
 Feel free to fork this project, submit issues, or create pull requests. Contributions are always welcome!
 
 ## Contact : 
--Nishant Kumar
--nishantr846@gmail.com
--https://www.linkedin.com/in/nishantr846/
+- Nishant Kumar
+- nishantr846@gmail.com
+- https://www.linkedin.com/in/nishantr846/
 
 
 
