@@ -22,20 +22,22 @@ This repository contains the code for a **Diabetes Prediction Web App** built us
 ## Setup and Installation
 
 1. Clone the repository:
-   git clone https://github.com/Nishantr846/diabetes-prediction-web-app.git
+   -git clone https://github.com/Nishantr846/diabetes-prediction-web-app.git
+   
+3. Navigate to the project folder:
+   -cd diabetes-prediction-web-app
+   
+4. Install the required dependencies:
+   -pip install pickle-mixin
+   -pip install scikit-learn
+   -pip install numpy
+   -pip install pandas
+   -pip install streamlit
+   
+6. Run the Streamlit app:
+   -streamlit run Diabetes_Prediction_WebApp.py
 
-2. Navigate to the project folder:
-   cd diabetes-prediction-web-app
-3. Install the required dependencies:
-   pip install pickle-mixin
-   pip install scikit-learn
-   pip install numpy
-   pip install pandas
-   pip install streamlit
-4. Run the Streamlit app:
-   streamlit run Diabetes_Prediction_WebApp.py
-
-5. Open the app in your browser (Streamlit will provide a local URL).
+7. Open the app in your browser (Streamlit will provide a local URL).
 
 
 ## How It Works
@@ -62,17 +64,17 @@ The model was trained to predict whether a person has diabetes (Outcome: 1) or n
 The trained model is saved using Pickle to allow easy reuse without retraining the model each time.
 
 1. Saving the Model:
-   pickle.dump(model, open('trained_model.sav', 'wb'))
-2. Loading the model:
-   loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+   -pickle.dump(model, open('trained_model.sav', 'wb'))
+3. Loading the model:
+   -loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Contributing
 Feel free to fork this project, submit issues, or create pull requests. Contributions are always welcome!
 
 ## Contact : 
-Nishant Kumar
-nishantr846@gmail.com
-https://www.linkedin.com/in/nishantr846/
+-Nishant Kumar
+-nishantr846@gmail.com
+-https://www.linkedin.com/in/nishantr846/
 
 
 
