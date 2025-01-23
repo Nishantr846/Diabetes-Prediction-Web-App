@@ -10,14 +10,10 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-import os
+# Load the saved model
+loaded_model = pickle.load(open('C:/Users/Nishant/Desktop/ML/Diabetes Prediction/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('./trained_model.sav', 'rb'))
 
-# Loading the saved model
-# Get the current directory of the script
-current_dir = os.path.dirname(os.path.abspath(__file__))
-# Construct the full path to the model file
-model_path = os.path.join(current_dir, 'trained_model.sav')
-loaded_model = pickle.load(open(model_path, 'rb'))
 # Function for prediction
 def predict_diabetes(input_data):
     # Reshape the array for a single prediction
